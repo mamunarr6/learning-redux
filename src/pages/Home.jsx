@@ -1,7 +1,10 @@
+import Counter from "../components/Counter";
+
 const Home = () => {
   return (
     <div>
-      <h1 className="bg-purple-400 text-5xl">home</h1>
+      <h1 className="text-center my-10">home</h1>
+      <Counter />
     </div>
   );
 };
